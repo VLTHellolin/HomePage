@@ -1,0 +1,7 @@
+mixin project_block(name, info, link, emoji)
+    a.project_block(target='_blank' href=link)
+        .project_container.left
+            .project_name= name
+            .project_info= info
+        .project_container.right
+            .project_emoj= emoji

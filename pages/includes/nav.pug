@@ -1,0 +1,18 @@
+.nav
+    a#nav_title(href='javascript:back_to_top()') Hellolin's HomePage
+
+script.
+    window.addEventListener('scroll', () => {
+        var scroll = $(document).scrollTop()
+        if(scroll == 0) {
+            $('.nav').css('top', '-50px')
+        } else {
+            $('.nav').css('top', '0')
+        }
+    })
+    var back_to_top = function () {
+        window.scrollTo({
+            top: 0,
+            behaivor: 'smooth'
+        })
+    }

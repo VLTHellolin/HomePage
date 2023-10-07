@@ -1,0 +1,15 @@
+include components/social_block.pug
+
+.social
+    //- h2.title 👋 Find Me at
+    +social_block('fa-brands fa-github', 'GitHub', 'https://github.com/hellolin-oi', '#616161')
+    +social_block('fa-brands fa-telegram', 'Telegram', 'https://t.me/hellolin_oi', '#26A5E4')
+    //- +social_block('fa-solid fa-book', 'Blog', 'https://blog.hellolin.cf', 'linear-gradient(45deg, #0f71ae, #64e9de)')
+    +social_block('fa-solid fa-book', 'Blog', 'https://blog.hellolin.cf', '#39ADC6')
+    +social_block('fa-brands fa-x-twitter', 'Twitter', 'https://twitter.com/hellolin_oi', '#1D9BF0')
+    +social_si_block('leetcode', 'LeetCode CN', 'https://leetcode.cn/u/imhellolin/', '#FFA116')
+    +social_si_block_simple('codeforces', 'https://codeforces.com/profile/hellolin', '#1F8ACB')
+    +social_block_simple('fa-solid fa-envelope-open-text', 'mailto:hellolinoi@outlook.com', '#005FF9')
+    +social_block_simple('fa-brands fa-discord', 'https://discord.com/users/1060072430355370094', '#5865F2')
+    +social_block_simple('fa-brands fa-wikipedia-w', 'https://zh.wikipedia.org/wiki/User:HelloLin-oi', '#616161')
+    +social_block_simple('fa-brands fa-mastodon', 'https://mastodon.social/@hellolin', '#6364FF')

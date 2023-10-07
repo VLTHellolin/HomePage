@@ -1,0 +1,16 @@
+{
+  "name": "homepage",
+  "version": "0.1.0",
+  "description": "hellolin's homepage",
+  "main": "index.js",
+  "scripts": {
+    "render": "mkdir public && node index.js"
+  },
+  "keywords": [],
+  "author": "hellolin",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2",
+    "stylus": "^0.60.0"
+  }
+}

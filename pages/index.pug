@@ -1,0 +1,23 @@
+doctype html
+
+html(lang='en')
+    head
+        include includes/head.pug
+    body
+        //- Top navigation bar
+        //- include includes/nav.pug
+        .main_container
+            //- The top block, which includes the name, profile, etc.
+            include includes/top.pug
+            //- Includes social information.
+            include includes/social.pug
+            //- More information.
+            include includes/info.pug
+            //- Includes personal skills.
+            include includes/skills.pug
+            //- Includes personal interests.
+            include includes/interests.pug
+            //- Includes personal projects.
+            include includes/projects.pug
+            //- The footer
+            include includes/footer.pug
