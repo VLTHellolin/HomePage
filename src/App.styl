@@ -1,0 +1,76 @@
+$primary = rgb(179, 197, 255)
+$secondary = rgb(193, 198, 221)
+
+html, body
+  height 100%
+  margin 0
+  font-family 'Red Hat Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'
+
+#app
+  height 100%
+  background transparent
+  .footer
+    position fixed
+    z-index 10
+    color #9e9e9e
+    bottom 2px
+    &#project
+      left 8px
+    &#bginfo
+      right 8px
+  #bg
+    position fixed
+    z-index -10
+    width 100%
+    height 100%
+    background url(./bg.png)
+    background-size cover
+    background-repeat no-repeat
+    background-position center
+    filter brightness(.65)
+  .container
+    height 100%
+    display flex
+    justify-content center
+    flex-wrap wrap
+    overflow auto
+    #left
+      height 100%
+      width 30%
+      background rgba(0, 0, 0, .45)
+      backdrop-filter blur(15px) saturate(170%)
+      display flex
+      justify-content right
+      flex-wrap wrap
+      .container
+        width 15em
+        display flex
+        justify-content center
+        flex-wrap wrap
+        flex-direction column
+        .title
+          width 100%
+          font-size 50px
+          font-weight 600
+          line-height 1.4
+          font-family Mulish, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'
+          span
+            background linear-gradient(transparent 75%, transparentify($secondary, #fff, .45) 0px)
+            color $primary
+        .btns
+          width 100%
+    #right
+      height 100%
+      width 70%
+      background transparent
+      display flex
+      justify-content center
+      flex-wrap wrap
+      .container
+        display flex
+        align-content center
+        flex-wrap wrap
+        flex-direction row
+        .devices
+          mdui-chip
+            background transparent
