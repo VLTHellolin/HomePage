@@ -29,8 +29,10 @@ setColorScheme('#656d88');
         br
         mdui-button(variant='tonal' icon='code' end-icon='arrow_forward' href='https://github.com/hellolin-oi' target='_blank') GitHub
         br
-        mdui-tooltip(variant='rich' content='Under developing...' placement='bottom')
+        mdui-tooltip(variant='rich' content='Under developing...' placement='bottom' trigger='click hover focus')
           mdui-button(variant='tonal' icon='apps' end-icon='arrow_forward') Apps
+      mdui-button.down(disabled variant='text' icon='arrow_downward')
+        | Scroll down!
   #right
     .container
       .info

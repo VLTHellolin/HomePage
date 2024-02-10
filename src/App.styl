@@ -59,6 +59,8 @@ html, body
             color $primary
         .btns
           width 100%
+        .down
+          display none
     #right
       height 100%
       width 70%
@@ -74,3 +76,32 @@ html, body
         .devices
           mdui-chip
             background transparent
+
+@media screen and (max-width: 750px)
+  #app
+    .footer
+      // display none
+      &#project
+        display none
+      &#bginfo
+        font-size .7em
+    .container
+      display block
+      #left
+        width 100%
+        justify-content center
+        .container
+          justify-content center
+          align-items center
+          .btns
+            margin-bottom 4em
+          .down
+            display block
+      #right
+        width 100%
+        height auto
+        .container
+          margin 2em
+          justify-content space-between
+          div
+            margin-bottom 3em
