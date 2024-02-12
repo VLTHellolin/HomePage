@@ -43,7 +43,7 @@ setColorScheme('#656d88');
           mdui-list-item(description='Always learning!' icon='language' rounded) zh-CN (Native) / en-US / ja-JP
           mdui-list-item(description='Most used languages' icon='computer' rounded) C++, TypeScript, C#, Kotlin
           mdui-list-item(description='Click to email me' icon='email' rounded href='mailto://hellolinoi@outlook.com') hellolinoi@outlook.com
-          mdui-list-item(description='Click to view my PGP Public Key' icon='key' rounded href='https://github.com/hellolin-oi.gpg' target='_blank') Key ID: F095 78EF 057B 35BD
+          mdui-list-item(description='Click to view my PGP Public Key' icon='key' rounded href='https://github.com/hellolin-oi.gpg' target='_blank') Key ID: 6D27 69C0 6088 2947
       .society
         h2 Contact me
         mdui-list
