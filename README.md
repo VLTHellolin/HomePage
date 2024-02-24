@@ -7,7 +7,7 @@ Hellolin 的主页源代码。[来看看](https://hellolin.top/)。
 Download and install the dependencies:
 
 ``` sh
-$ git clone https://github.com/hellolin-oi/HomePage.git --depth 1
+$ git clone https://github.com/VLTHellolin/HomePage.git --depth 1
 $ cd HomePage
 $ pnpm i
 ```

@@ -81,7 +81,7 @@ mdui-dialog.pgp_dialog(headline='My PGP Public Key' description='6D27 69C0 6088 
         br
         mdui-button(variant='tonal' icon='bookmarks' end-icon='arrow_forward' href='https://note.hellolin.top/' target='_blank') Notes
         br
-        mdui-button(variant='tonal' icon='code' end-icon='arrow_forward' href='https://github.com/hellolin-oi' target='_blank') GitHub
+        mdui-button(variant='tonal' icon='code' end-icon='arrow_forward' href='https://github.com/VLTHellolin' target='_blank') GitHub
         br
         mdui-tooltip(variant='rich' content='Under developing...' placement='bottom' trigger='click hover focus')
           mdui-button(variant='tonal' icon='apps' end-icon='arrow_forward') Apps
@@ -101,7 +101,7 @@ mdui-dialog.pgp_dialog(headline='My PGP Public Key' description='6D27 69C0 6088 
       .society
         h2 Contact me
         mdui-list
-          mdui-list-item(href='https://github.com/hellolin-oi' target='_blank' rounded)
+          mdui-list-item(href='https://github.com/VLTHellolin' target='_blank' rounded)
             mdui-icon(slot='icon' src='https://cdn.hellolin.top/npm/simple-icons/icons/github.svg')
             | GitHub
           mdui-list-item(href='https://twitter.com/hellolin_oi' target='_blank' rounded)
@@ -129,7 +129,7 @@ mdui-dialog.pgp_dialog(headline='My PGP Public Key' description='6D27 69C0 6088 
             mdui-icon(slot='icon' src='https://cdn.hellolin.top/npm/simple-icons/icons/youtube.svg')
             | Youtube
 #project.footer
-  a(href='https://github.com/hellolin-oi/HomePage' target='_blank') Source Code
+  a(href='https://github.com/VLTHellolin/HomePage' target='_blank') Source Code
   |
   | Copyright 2022-2024 hellolin, all rights reserved.
 #bginfo.footer
