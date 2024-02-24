@@ -104,10 +104,10 @@ mdui-dialog.pgp_dialog(headline='My PGP Public Key' description='6D27 69C0 6088 
           mdui-list-item(href='https://github.com/VLTHellolin' target='_blank' rounded)
             mdui-icon(slot='icon' src='https://cdn.hellolin.top/npm/simple-icons/icons/github.svg')
             | GitHub
-          mdui-list-item(href='https://twitter.com/hellolin_oi' target='_blank' rounded)
+          mdui-list-item(href='https://twitter.com/VLTHellolin' target='_blank' rounded)
             mdui-icon(slot='icon' src='https://cdn.hellolin.top/npm/simple-icons/icons/twitter.svg')
             | X(Twitter)
-          mdui-list-item(href='https://t.me/hellolin_oi' target='_blank' rounded)
+          mdui-list-item(href='https://t.me/VLTHellolin' target='_blank' rounded)
             mdui-icon(slot='icon' src='https://cdn.hellolin.top/npm/simple-icons/icons/telegram.svg')
             | Telegram
           mdui-list-item(href='http://www.coolapk.com/u/28126054' target='_blank' rounded)
