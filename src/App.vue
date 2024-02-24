@@ -101,6 +101,7 @@ mdui-dialog.pgp_dialog(headline='My PGP Public Key' description='6D27 69C0 6088 
       .society
         h2 Contact me
         mdui-list
+          mdui-list-item(href='https://t.me/VioletHellolin' target='_blank' rounded icon='chat') Personal Channel
           mdui-list-item(href='https://github.com/VLTHellolin' target='_blank' rounded)
             mdui-icon(slot='icon' src='https://cdn.hellolin.top/npm/simple-icons/icons/github.svg')
             | GitHub
